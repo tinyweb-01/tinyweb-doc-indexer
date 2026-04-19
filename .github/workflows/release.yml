@@ -43,7 +43,7 @@ jobs:
         run: pnpm -r build
 
       - name: Run tests
-        run: pnpm -r test --if-present
+        run: pnpm -r run test
 
       # The action will:
       #   - if .changeset/*.md exist → open / update a "Version Packages" PR

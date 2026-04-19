@@ -26,8 +26,8 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm -r build
-      - run: pnpm -r test --if-present
-      - run: pnpm -r lint --if-present
+      - run: pnpm -r run test
+      - run: pnpm -r run lint
 
   changeset-check:
     # Ensure every PR (except release PRs) ships at least one changeset.
