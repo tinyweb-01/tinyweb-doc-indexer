@@ -1,6 +1,6 @@
 {
   "name": "@tinyweb_dev/doc-indexer-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI for @tinyweb_dev/doc-indexer.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -21,7 +21,10 @@
   "bin": {
     "doc-index": "./dist/index.js"
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
