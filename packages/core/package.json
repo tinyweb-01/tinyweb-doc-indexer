@@ -1,6 +1,6 @@
 {
   "name": "@tinyweb_dev/doc-indexer-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Core pipeline + types for @tinyweb_dev/doc-indexer.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -30,7 +30,10 @@
       "require": "./dist/storage/index.cjs"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
