@@ -1,0 +1,25 @@
+{
+  "name": "doc-indexer-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Universal document indexing library for RAG pipelines (Excel, PDF, image, URL, GSheet, GDoc, ...).",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r exec rm -rf dist .turbo node_modules",
+    "cli": "pnpm --filter @tinyweb_dev/doc-indexer-cli exec doc-index",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm -r build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "@types/node": "^20.14.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.1.0"
+  }
+}

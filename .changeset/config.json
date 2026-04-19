@@ -1,0 +1,19 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "fixed": [
+    [
+      "@tinyweb_dev/doc-indexer-core",
+      "@tinyweb_dev/doc-indexer-excel",
+      "@tinyweb_dev/doc-indexer-pdf",
+      "@tinyweb_dev/doc-indexer-llm-openai",
+      "@tinyweb_dev/doc-indexer-cli"
+    ]
+  ],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": ["doc-indexer-monorepo"]
+}

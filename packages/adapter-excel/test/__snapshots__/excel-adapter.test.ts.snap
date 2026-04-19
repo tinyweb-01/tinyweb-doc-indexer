@@ -1,0 +1,529 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ExcelAdapter — snapshot > indexes sample.xlsx 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "表紙 · table 1 (A19:AE21)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "表紙",
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "1. 概要",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "2.作業範囲",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "3.INPUT資料",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "4. 範囲外",
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "5.1. 前提条件・想定",
+            },
+            {
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "5.２. 建材領域におけるマイグレーション工数の算出に関する仮定方法",
+            },
+            {
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "5.3. 役割・責任",
+            },
+            {
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "5.4. 開発環境",
+            },
+            {
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "5.5. 納品物",
+            },
+          ],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "5. 前提条件・想定",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "5. リスク",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "6. その他",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "範囲・想定",
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "見積案 · table 1 (A1:AI12)",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "見積案 · table 2 (A15:AI25)",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "見積案 · table 3 (A28:AI38)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "見積案",
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "変換・開発 · table 1 (A2:L100)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "変換・開発",
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "【参照】_Patterns COBOL → NetCoBol · table 1 (A4:Z30)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "【参照】_Patterns COBOL → NetCoBol",
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": " 【参照】_CL → PowerShell · table 1 (A4:G29)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": " 【参照】_CL → PowerShell",
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "1. Data Migration Test",
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "1. お客様がインプット/アウトプットデータを準備・提供",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "2. データリストが十分かを確認し、追加収集が必要なものを特定",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "3. CLに基づいてインプット/アウトプット数を特定 → データが変換済みかつ十分な量かをお客様と確認",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "4. お客様共有データをWindowsシステムに適したデータへ変換",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "5. CLを実行",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "6. VTIツールでインプット/アウトプットを比較 → NEW出力データリストと旧新比較Excelファイルを作成",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "7. 合格条件: アウトプットに差異なし（実行日時による差異の場合は説明が必要）",
+                    },
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "kind": "heading",
+                  },
+                  "title": "実施方法",
+                },
+              ],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "2. Test Batch",
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "1. お客様がインプット/アウトプットデータ + 画面操作フロー（ステップバイステップ、スクリーンショットのみではなく）+ 操作画像を準備・提供",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "2. データリストが十分かを確認し、追加収集が必要なものを特定",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "3. CLに基づいてインプット/アウトプット数を特定 → お客様と十分かを確認",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "4. お客様共有データをWindowsシステムに適したデータへ変換",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "5. CLを実行",
+                    },
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "kind": "heading",
+                  },
+                  "title": "実施方法",
+                },
+              ],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "3. Test Online",
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "1. COBOLからファイル生成のテスト → テンプレートデータファイル",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "2. 実ファイルまたはPDFへの印刷テスト",
+                    },
+                    {
+                      "children": [],
+                      "metadata": {
+                        "depth": 5,
+                        "kind": "heading",
+                      },
+                      "title": "3. 現行オフコンでのプリンター接続方式を確認し、Windows展開時の対応を検討",
+                    },
+                  ],
+                  "metadata": {
+                    "depth": 4,
+                    "kind": "heading",
+                  },
+                  "title": "実施方法",
+                },
+              ],
+              "metadata": {
+                "depth": 3,
+                "kind": "heading",
+              },
+              "title": "4. Test Report",
+            },
+          ],
+          "metadata": {
+            "depth": 2,
+            "kind": "heading",
+          },
+          "title": "テスト観点（化学品）",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "【参照】テスト観点 · table 1 (A63:F70)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "【参照】テスト観点",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Roadmap",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Resource Plan",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Quản lý dữ liệu",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Rollback Plan",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Migration Script 1",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Thiết kế - DEV - TEST - So sánh",
+    },
+    {
+      "children": [],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Bản của Nguyen Lên kế hoạch",
+    },
+  ],
+  "metadata": {
+    "depth": 0,
+    "kind": "document",
+  },
+  "title": "sample.xlsx",
+}
+`;
+
+exports[`ExcelAdapter — snapshot > indexes tables-sample.xlsx 1`] = `
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "Sheet1 · table 1 (A1:AI12)",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "Sheet1 · table 2 (A15:AI25)",
+        },
+        {
+          "children": [],
+          "metadata": {
+            "depth": 2,
+            "kind": "table",
+          },
+          "title": "Sheet1 · table 3 (A28:AI38)",
+        },
+      ],
+      "metadata": {
+        "depth": 1,
+        "kind": "sheet",
+      },
+      "title": "Sheet1",
+    },
+  ],
+  "metadata": {
+    "depth": 0,
+    "kind": "document",
+  },
+  "title": "tables-sample.xlsx",
+}
+`;
