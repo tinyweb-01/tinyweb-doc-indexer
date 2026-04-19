@@ -33,15 +33,11 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@tinyweb_dev/doc-indexer-core": "workspace:*"
+    "@tinyweb_dev/doc-indexer-core": "workspace:*",
+    "tinyweb-office-cells": "^1.2.3"
   },
-  "peerDependencies": {
-    "tinyweb-office-cells": "*",
-    "puppeteer": "*"
-  },
-  "peerDependenciesMeta": {
-    "tinyweb-office-cells": { "optional": true },
-    "puppeteer": { "optional": true }
+  "optionalDependencies": {
+    "puppeteer": "^24.41.0"
   },
   "devDependencies": {
     "tsup": "^8.3.0",
