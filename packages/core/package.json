@@ -6,6 +6,14 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinyweb-01/tinyweb-doc-indexer.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/tinyweb-01/tinyweb-doc-indexer/tree/main/packages/core#readme",
+  "bugs": "https://github.com/tinyweb-01/tinyweb-doc-indexer/issues",
+  "license": "MIT",
   "publishConfig": {
     "access": "public",
     "provenance": true
